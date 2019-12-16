@@ -11,6 +11,7 @@ class Property extends Model
         'business_type',
         'property_name',
         'description',
+        'location',
         'photo'
     ];   
 }

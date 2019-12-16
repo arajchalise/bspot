@@ -19,6 +19,7 @@ class CreatePropertiesTable extends Migration
             $table->string('business_type');
             $table->string('property_name');
             $table->text('description');
+            $table->string('location');
             $table->string('photo');
             $table->timestamps();
         });
